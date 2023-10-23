@@ -6,6 +6,10 @@ import Footer from "../components/global/Footer/Footer.astro";
 import Navbar from "../components/global/Header/navbarescritorio.astro";
 //  Navbar de movil
 
+// Importanto el modulo Home
+
+import HomeModule from "../modules/home/layout/layout_home.astro";
+
 import "../styles/pages/index.css";
 
 // importando sliders
@@ -19,8 +23,11 @@ import HomeSlider5 from "@component/global/home/home_slider_5.astro";
 
 
 <Layout title="thehouseexclusive.com">
+	<!-- Header -->
 	<Navbar />
-
+	<!-- body -->
+	<HomeModule/>
+	<!-- footer -->
 	<div class="body_content">
         <div class="sliders">
             <div class="div_slide color_1">
