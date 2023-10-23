@@ -1,23 +1,18 @@
 ---
 // Component imports
 import { Layout } from "@globals"
-import Footer from "../components/global/Footer/Footer.astro";
+
 // Navbar de escritorio
 import Navbar from "../components/global/Header/navbarescritorio.astro";
-//  Navbar de movil
 
 // Importanto el modulo Home
-
 import HomeModule from "../modules/home/layout/layout_home.astro";
 
-import "../styles/pages/index.css";
+// Importando el footer
+import Footer from "../components/global/Footer/Footer.astro";
 
-// importando sliders
-import HomeSlider1 from "@component/global/home/home_slider_1.astro";
-import HomeSlider2 from "@component/global/home/home_slider_2.astro";
-import HomeSlider3 from "@component/global/home/home_slider_3.astro";
-import HomeSlider4 from "@component/global/home/home_slider_4.astro";
-import HomeSlider5 from "@component/global/home/home_slider_5.astro";
+// Estilos generales
+import "../styles/pages/index.css";
 
 ---
 
@@ -28,23 +23,4 @@ import HomeSlider5 from "@component/global/home/home_slider_5.astro";
 	<!-- body -->
 	<HomeModule/>
 	<!-- footer -->
-	<div class="body_content">
-        <div class="sliders">
-            <div class="div_slide color_1">
-				<HomeSlider1/>
-			</div>
-            <div class="div_slide color_2">
-				<HomeSlider2/>
-			</div>
-            <div class="div_slide color_1">
-				<HomeSlider3/>
-			</div>
-            <div class="div_slide color_2">
-				<HomeSlider4/>
-			</div>
-            <div class="div_slide color_1">
-				<HomeSlider5/>
-			</div>
-        </div>
-    </div>
 </Layout>
