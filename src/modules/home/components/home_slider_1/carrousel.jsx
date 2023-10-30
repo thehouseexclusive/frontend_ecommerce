@@ -3,22 +3,15 @@ import '../../styles/carousel_home_slider_1.css';
 
 
 const imagenes = [ 
-  "https://res.cloudinary.com/unidigital/image/upload/v1696605197/software%20completo/promo_isfjtt.png",
-  "https://http2.mlstatic.com/D_NQ_827915-MLA72037073590_102023-OO.webp",
-  "https://http2.mlstatic.com/D_NQ_741936-MLA72003433921_092023-OO.webp",
-  "https://http2.mlstatic.com/D_NQ_612942-MLA71945575734_092023-OO.webp",
-  "https://http2.mlstatic.com/D_NQ_885299-MLA71946536612_092023-OO.webp",
-  "https://http2.mlstatic.com/D_NQ_741936-MLA72003433921_092023-OO.webp",
-  "https://http2.mlstatic.com/D_NQ_741936-MLA72003433921_092023-OO.webp",
-  "https://res.cloudinary.com/unidigital/image/upload/v1696605197/software%20completo/promo_isfjtt.png",
-  "https://http2.mlstatic.com/D_NQ_827915-MLA72037073590_102023-OO.webp",
-  "https://http2.mlstatic.com/D_NQ_741936-MLA72003433921_092023-OO.webp",
+  "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698641124/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_5_tqtujg.webp",
+  "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698641204/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_6_ykdfrf.webp",
+  "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698641251/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_7_lugnen.webp",
+  "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698641393/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_8_xmovyk.webp"
 ];
 
 function Carrusel() {
-  const [posicion, setPosicion] = useState(0);
 
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(Math.floor(Math.random() * imagenes.length));
 
   const goToPreviousSlide = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? imagenes.length - 1 : prevIndex - 1));
