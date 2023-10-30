@@ -1,0 +1,8 @@
+@import '../../../styles/colors.css';
+
+.titulo_empresa{
+    background: linear-gradient(90deg, rgba(80, 148, 136, 1) 0%, rgba(71, 126, 101, 1) 50%, rgba(90, 120, 81, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
