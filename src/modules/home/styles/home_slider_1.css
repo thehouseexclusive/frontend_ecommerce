@@ -10,11 +10,11 @@
 }
 .content_slider_1_header{
     width: 100%;
-    height: 12vh;
+    height: 12%;
 }
 .content_slider_1_titulo{
     width: 100%;
-    height: 10vh;
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,12 +22,33 @@
 }
 .content_slider_1_carrusel{
     width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.content_slider_1_cateogries{
+    width: 100%;
+    height: 30%;
+    background-color: red;
+}
+.content_slider_1_cateogries_title{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
+
+
 @media (max-width:750px) {
-    .content_slider_1_header{
-        height: 3vh;
+    .content_slider_1_carrusel{
+        height: 20%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 }

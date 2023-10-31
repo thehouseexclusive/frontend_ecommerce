@@ -12,6 +12,7 @@
 }
 .content_navbar_movil{
     display: none;
+    
 }
 .content_divs_icons{
     display: flex;
@@ -20,13 +21,38 @@
     align-items: center;
     justify-content: space-around;
 }
+.nav_logo_movil{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_logo_movil{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_buscador{
+    background-color: antiquewhite;
+    color: red;
+}
 
 @media (max-width: 750px) {
     .content_navbar_escritorio{
         display: none;
     }
     .content_navbar_movil{
+        width: 100%;
         height: 10vh;
+        position: fixed;
+        z-index: 1000;
+        background-color: var(--color-white);
         display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 }

@@ -1,7 +1,8 @@
 ---
 import '../../styles/home_slider_1.css';
-import Carrusel  from './carrousel';
 import TituloEmpresa from './title_company.astro'
+import Carrusel  from './carrousel';
+import Categorias from './categories.astro';
 ---
 <div class="content_slider_1">
     <div class="content_slider_1_header">
@@ -10,6 +11,9 @@ import TituloEmpresa from './title_company.astro'
         <TituloEmpresa/>    
     </div>
     <div class="content_slider_1_carrusel">
-        <Carrusel client:only>
+        <Carrusel client:only />
+    </div>
+    <div class="content_slider_1_cateogries">
+        <Categorias/>
     </div>
 </div>

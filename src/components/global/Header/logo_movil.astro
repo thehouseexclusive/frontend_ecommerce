@@ -1,0 +1,9 @@
+---
+import '../../../styles/components/header.css';
+import { Image } from '@astrojs/image/components';
+const UrlImgLogo = "/public/favicons/favicon-384x384.png";
+---
+<div class="div_logo_movil">
+    <Image src={UrlImgLogo} alt="descriptive text" 
+            width={384} height={384} format={"webp"} loading="eager" decoding="auto"/>
+</div>
