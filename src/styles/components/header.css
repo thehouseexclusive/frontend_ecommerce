@@ -66,6 +66,26 @@
     align-items: center;
     justify-content: center;
 }
+.nav_buscar:hover{
+    color: var(--color-1);
+    background-color: var(--color-6);
+}
+.nav_media:hover{
+    color: var(--color-1);
+    background-color: var(--color-6);
+}
+.nav_carrito:hover{
+    color: var(--color-1);
+    background-color: var(--color-6);
+}
+.nav_sesion:hover{
+    color: var(--color-1);
+    background-color: var(--color-6);
+}
+.nav_menu:hover{
+    color: var(--color-1);
+    background-color: var(--color-6);
+}
 
 @media (max-width: 750px) {
     .content_navbar_escritorio{
