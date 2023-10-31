@@ -1,9 +1,45 @@
 ---
 import '../../styles/home_slider_1.css';
+import { Image } from '@astrojs/image/components';
+const categoryList = [
+    {
+        img_category: 'https://res.cloudinary.com/dqryrvrzh/image/upload/v1698784287/The%20House%20Exclusive/Imagenes%20Categorias/the_house_exclusive_vyptai.png',
+        name_category: 'Productos',
+        quantity_category: '56'
+    },
+    {
+        img_category: 'https://res.cloudinary.com/dqryrvrzh/image/upload/v1698784287/The%20House%20Exclusive/Imagenes%20Categorias/the_house_exclusive_1_p76em8.png',
+        name_category: 'Mujer',
+        quantity_category: '26'
+    },
+    {
+        img_category: 'https://res.cloudinary.com/dqryrvrzh/image/upload/v1698784287/The%20House%20Exclusive/Imagenes%20Categorias/the_house_exclusive_2_goeblt.png',
+        name_category: 'Hombre',
+        quantity_category: '30'
+    },
+    
+]
 ---
 <div class="content_slider_1_cateogries_title">
     NUESTRAS CATEGORIAS
 </div>
 <div class="content_slider_1_cateogries_content_divs">
-
+    {
+        categoryList ? categoryList.map((item) => (
+            <div class="div_category">
+                <div class="div_img_category">
+                    <Image class="div_img_category" src={item.img_category} alt="descriptive text" 
+            width={300} height={300} format={"webp"} loading="eager" decoding="auto"/>
+                </div>
+                <br/>
+                <div class="title_category">
+                    {item.name_category}
+                </div>
+                <div class="cantidad_category">
+                    Cantidad {item.quantity_category}    
+                </div>
+            </div>
+        )) : <></>
+    }
+    
 </div>

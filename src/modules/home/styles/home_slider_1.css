@@ -30,28 +30,82 @@
 .content_slider_1_cateogries{
     width: 100%;
     height: 28%;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 .content_slider_1_cateogries_title{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: var(--color-3);
+    font-family: Cabin;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.content_slider_1_cateogries_content_divs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.div_category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div_img_category{
+    width: 48.533px;
+    height: 48.533px;
+    border-radius: 48.533px;    
+}
+.title_category{
+    color: var(--text-color-600, #001E00);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px; 
+    letter-spacing: -0.15px;
+}
+.cantidad_category{
+    color: rgba(99, 118, 99, 0.75);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
 }
 
-
 @media (max-width:750px) {
+    .content_slider_1_titulo{
+        height: 20%;
+    }
     .content_slider_1_carrusel{
         height: 20%;
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
     }
     .content_slider_1_cateogries{
-        height: 58%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    .content_slider_1_cateogries_content_divs{
+        height: 50%;
+    }
+    
 }
