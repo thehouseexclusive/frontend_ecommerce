@@ -18,12 +18,13 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: space-around;
 }
 .nav_logo_movil{
     height: 100%;
-    width: 16%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,9 +36,35 @@
     align-items: center;
     justify-content: center;
 }
-.icon_buscador{
-    background-color: antiquewhite;
-    color: red;
+
+.div_nav_icons_movil{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(99, 118, 99, 0.70);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+}
+.icon_nav{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_icon{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 750px) {
