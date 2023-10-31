@@ -1,5 +1,5 @@
 @import '../colors.css';
-.content_navbar{
+.content_navbar_escritorio{
     width: 100%;
     height: 10vh;
     position: fixed;
@@ -10,9 +10,23 @@
     align-items: center;
     justify-content: center;
 }
+.content_navbar_movil{
+    display: none;
+}
+.content_divs_icons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
 
 @media (max-width: 750px) {
-    .content_navbar{
+    .content_navbar_escritorio{
         display: none;
+    }
+    .content_navbar_movil{
+        height: 10vh;
+        display: flex;
     }
 }

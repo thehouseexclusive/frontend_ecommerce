@@ -18,10 +18,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .content_slider_1_carrusel{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width:750px) {
+    .content_slider_1_header{
+        height: 3vh;
+    }
 }

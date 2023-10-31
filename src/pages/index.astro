@@ -3,7 +3,8 @@
 import { Layout } from "@globals"
 
 // Navbar de escritorio
-import Navbar from "../components/global/Header/navbarescritorio.astro";
+import NavbarEscritorio from "../components/global/Header/navbarescritorio.astro";
+import NavbarMovil from "../components/global/Header/navbarmovil.astro";
 
 // Importanto el modulo Home
 import HomeModule from "../modules/home/layout/layout_home.astro";
@@ -19,7 +20,8 @@ import "../styles/pages/index.css";
 
 <Layout title="thehouseexclusive.com">
 	<!-- Header -->
-	<Navbar />
+	<NavbarEscritorio />
+	<NavbarMovil/>
 	<!-- body -->
 	<HomeModule/>
 	<!-- footer -->
