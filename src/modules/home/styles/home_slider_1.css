@@ -80,9 +80,10 @@
     letter-spacing: -0.15px;
 }
 .cantidad_category{
+    padding-top: 5px;
     color: rgba(99, 118, 99, 0.75);
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
