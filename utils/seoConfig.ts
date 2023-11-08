@@ -5,17 +5,17 @@ import type { ManifestOptions } from "vite-plugin-pwa"
  * Defines the default SEO configuration for the website.
  */
 export const seoConfig = {
-	baseURL: "https://softwarecompleto.com", // Change this to your production URL.
+	baseURL: "https://thehouseexclusive.com", // Change this to your production URL.
 	description:
-		"softwarecompleto.com es una plataforma de servicios de software, enfocada en la unificación de ecommerce y software contable para microempresas", // Change this to be your website's description.
+		"Somos una empresa dedicada a la personalización de prendas de vestir, deseamos poder brindarle diseños exlusivos a nuestros clientes, con la mejor calidad en material y confección profesional. Estamos ubicados en la ciudad de Cartago y podemos realizar envíos a nivel nacional, todo desde precios acequibles", // Change this to be your website's description.
 	type: "website",
 	image: {
 		url: "https://picsum.photos/1200/630", // Change this to your website's thumbnail.
-		alt: "OpenGraph thumbnail description.", // Change this to your website's thumbnail description.
+		alt: "Personalización, diseño exclusivo y la mejor calidad de material y proceso de confección, cobertura a nivel nacional", // Change this to your website's thumbnail description.
 		width: 1200,
 		height: 630
 	},
-	siteName: "softwarecompleto.com", // Change this to your website's name,
+	siteName: "thehouseexclusive.com", // Change this to your website's name,
 	twitter: {
 		card: "summary_large_image"
 	}
@@ -25,10 +25,10 @@ export const seoConfig = {
  * Defines the configuration for PWA webmanifest.
  */
 export const manifest: Partial<ManifestOptions> = {
-	name: "softwarecompleto.com", // Change this to your website's name.
-	short_name: "softwarecompleto.com", // Change this to your website's short name.
+	name: "thehouseexclusive.com", // Change this to your website's name.
+	short_name: "thehouseexclusive.com", // Change this to your website's short name.
 	description:
-		"softwarecompleto.com es una plataforma de servicios de software, enfocada en la unificación de ecommerce y software contable para microempresas", // Change this to your websites description.
+		"Somos una empresa dedicada a la personalización de prendas de vestir, deseamos poder brindarle diseños exlusivos a nuestros clientes, con la mejor calidad en material y confección profesional. Estamos ubicados en la ciudad de Cartago y podemos realizar envíos a nivel nacional, todo desde precios acequibles", // Change this to your websites description.
 	theme_color: "#30E130", // Change this to your primary color.
 	background_color: "#ffffff", // Change this to your background color.
 	display: "minimal-ui",

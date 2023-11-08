@@ -6,7 +6,9 @@ const imagenes = [
   "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698641124/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_5_tqtujg.webp",
   "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698641204/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_6_ykdfrf.webp",
   "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698641251/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_7_lugnen.webp",
-  "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698641393/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_8_xmovyk.webp"
+  "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698641393/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_8_xmovyk.webp",
+  "https://res.cloudinary.com/dqryrvrzh/image/upload/v1698790707/The%20House%20Exclusive/Imagenes%20Carrusel/Carrusel_The_House_Exclusive_9_viu6zw.webp",
+  
 ];
 
 function Carrusel() {
