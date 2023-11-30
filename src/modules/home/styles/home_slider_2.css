@@ -14,15 +14,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
 }
 .content_slider_2_parrafo_margen{
     width: 90%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-start;
-    text-align: center;
-    background-color: bisque;
 }
 .content_slider_2_imagen{
     width: 50%;
@@ -33,18 +31,29 @@
 }
 
 /* --------------------------- */
+.titulo_diseno_personalizado{
+    color:#1a1a1a;
+    direction:ltr;
+    font-family:Nunito, Arial, Helvetica Neue, Helvetica, sans-serif;font-size:50px;
+    font-weight:700;
+    letter-spacing:normal;
+    line-height:120%;
+    text-align:left;
+    margin-top:0;
+    margin-bottom:0;
+}
 .boton_cotizar{
     font-size: 16px; 
     background-color: #748231; 
-    border-radius: 50px; 
+    border-radius: 20px; 
     color: #ffffff; 
     direction: ltr; 
     font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; font-weight: 400; 
     max-width: 100%; 
-    padding-bottom: 10px; 
-    padding-left: 25px; 
-    padding-right: 25px; 
-    padding-top: 10px; 
+    padding-bottom: 5px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 5px; 
     width: auto; 
     display: inline-block;
 }
@@ -56,11 +65,20 @@
     }
     .content_slider_2_parrafo{
         width: 100%;
+        align-items: flex-end;
+        justify-content: center;
     }
     .content_slider_2_imagen{
-        width: 100%;
+        width: 100%;      
     }
+    
     .slider_2_imagen_img{
-        width: 100%;
+        width: 90%;
+    }
+    .titulo_diseno_personalizado{
+        font-size: 25px;
+    }
+    .parrafo_diseno_personalizado{
+        font-size: 15px;
     }
 }
